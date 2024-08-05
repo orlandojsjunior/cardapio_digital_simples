@@ -1,10 +1,10 @@
 # Cardápio Digital
 
-## AV1 - Disciplina: Usabilidade e Interface Homem Máquina - D.20242.A - UNINASSAU.
+## AV1 - Disciplina: Usabilidade e Interface Homem Máquina - D.20242.A - UNINASSAU
 
-* Aluno: Orlando José da Silva Junior 
-* Matrícula: 01614406 
-* Curso: Análise e Desenvolvimento de Sistemas 
+* Aluno: Orlando José da Silva Junior
+* Matrícula: 01614406
+* Curso: Análise e Desenvolvimento de Sistemas
 
 Neste projeto, desenvolvi um sistema de cardápio digital interativo para um restaurante fast food. O objetivo é criar uma interface amigável e intuitiva que permita aos clientes selecionarem itens do cardápio, gerenciar seus pedidos e finalizar a compra de forma eficiente. Utilizaremos HTML, CSS e Javascript para construir essa aplicação, garantindo que a experiência do usuário seja fluida e agradável.
 
