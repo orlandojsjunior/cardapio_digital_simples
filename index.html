@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio Digital</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Cardápio Digital</h1>
+    <div class="menu-category">
+        <h2>Hambúrgueres</h2>
+        <div class="menu-item">
+            <img src="cheeseburger.jpg" alt="Cheeseburger">
+            <input type="checkbox" id="burger1" name="burger1">
+            <label for="burger1">Cheeseburger - R$15,00</label>
+            <input type="number" id="qty-burger1" name="qty-burger1" min="1" value="1">
+        </div>
+        <!-- Adicione mais itens aqui -->
+    </div>
+    <div class="menu-category">
+        <h2>Salgados</h2>
+        <div class="menu-item">
+            <img src="coxinha.jpg" alt="Coxinha">
+            <input type="checkbox" id="salgado1" name="salgado1">
+            <label for="salgado1">Coxinha - R$5,00</label>
+            <input type="number" id="qty-salgado1" name="qty-salgado1" min="1" value="1">
+        </div>
+        <!-- Adicione mais itens aqui -->
+    </div>
+    <div class="menu-category">
+        <h2>Bebidas</h2>
+        <div class="menu-item">
+            <img src="refrigerante.jpg" alt="Refrigerante">
+            <input type="checkbox" id="bebida1" name="bebida1">
+            <label for="bebida1">Refrigerante - R$7,00</label>
+            <input type="number" id="qty-bebida1" name="qty-bebida1" min="1" value="1">
+        </div>
+        <!-- Adicione mais itens aqui -->
+    </div>
+    <button onclick="addToCart()">Adicionar ao Carrinho</button>
+    <div id="cart"></div>
+    <footer>
+        Aluno: Orlando José da Silva Junior --
+        Matrícula: 01614406 --
+        Curso: Análise e Desenvolvimento de Sistemas --
+        Disciplina: Usabilidade e Interface Homem Máquina - D.20242.A --
+        UNINASSAU CAMPINA GRANDE-PB. (EST. VELHA DE SOUZA).
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
